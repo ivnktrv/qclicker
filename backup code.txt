@@ -1,0 +1,38 @@
+
+    /*for (auto it = pos.begin(); it != pos.end(); ++it) {
+        if (it->clickType == 1) {
+            bool offset_flag = true;
+            for (auto it2 = std::next(it); it2 != pos.end(); ++it2) {
+                if (it->posX == it2->posX &&
+                    it->posY == it2->posY &&
+                    it2->clickType== 1) {
+                    if (offset_flag) {
+                        it2->posY += 1;
+                    }
+                    offset_flag = !offset_flag;
+                }
+                else {
+                    offset_flag = true;
+                }
+            }
+        }
+    }*/
+    /*
+    for (auto it = pos.begin(); it != pos.end(); ++it) {
+        if (it->clickType == 2) {
+            bool offset_flag = true;
+            for (auto it2 = std::next(it); it2 != pos.end(); ++it2) {
+                if (it->posX == it2->posX &&
+                    it->posY == it2->posY &&
+                    it2->clickType == 2) {
+                    if (offset_flag) {
+                        it2->posY += 1;
+                    }
+                    offset_flag = !offset_flag;
+                }
+                else {
+                    offset_flag = true;
+                }
+            }
+        }
+    }*/
